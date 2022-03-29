@@ -141,8 +141,8 @@ var btnTres = document.getElementById("btntres")
 function quitarTres(){
     if (btnTres && 0<contadorTres && 0<precioTres) {
             contadorTres --
-            precioTres -= 150000
-            total -= 150000 
+            precioTres -= 180000
+            total -= 180000 
             cantAnuncios --                      
             var fila = "<td>"
             fila += contadorTres
@@ -172,8 +172,8 @@ function quitarTres(){
 function sumarTres(){
     if (btnTres) {
         contadorTres ++
-        precioTres += 150000
-        total += 150000 
+        precioTres += 180000
+        total += 180000 
         cantAnuncios ++
         var fila = "<td>"
             fila += contadorTres
